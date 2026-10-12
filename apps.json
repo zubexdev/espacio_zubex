@@ -1,0 +1,365 @@
+{
+  "areas": [
+    {
+      "id": "produccion",
+      "nombre": "Producción",
+      "icono": "⚙️",
+      "subareas": [
+        {
+          "id": "extruder",
+          "nombre": "Extruder",
+          "apps": [
+            {
+              "id": "ztela-zx",
+              "nombre": "Ztela ZX",
+              "url": "http://192.168.43.170/",
+              "estado": "activa",
+              "descripcion": "Registro de bobinas ",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "impresion",
+          "nombre": "Impresión",
+          "apps": [
+            {
+              "id": "diania",
+              "nombre": "DIANIA",
+              "url": "https://diania-zubex.web.app",
+              "estado": "activa",
+              "descripcion": "",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calidad",
+      "nombre": "Calidad",
+      "icono": "✅",
+      "apps": [
+        {
+          "id": "zx-calidad-quejas",
+          "nombre": "Quejas de Cliente",
+          "url": null,
+          "estado": "en_desarrollo",
+          "descripcion": "Seguimiento de quejas de cliente (VEN-F-03, 8D)",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "zx-calidad-equipos",
+          "nombre": "CalidadZX",
+          "url": "https://gamabet26.github.io/ZX-Calidad/",
+          "estado": "activa",
+          "descripcion": "Registro de equipos de medición",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "certificados-calidad-muestras",
+          "nombre": "Certificados de Calidad — Muestras",
+          "url": "https://ili-qbex-certificados-muestras.netlify.app",
+          "estado": "activa",
+          "descripcion": "",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "medicion-atributos",
+          "nombre": "Medición de Atributos",
+          "url": "https://zxerpdev.github.io/medicion-atributos-/",
+          "estado": "activa",
+          "descripcion": "ASC-F-01 · Auditoría de Atributos y Variables de Extrusión",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "monitoreo-corrugado",
+          "nombre": "Monitoreo y Control de Corrugado",
+          "url": "https://zx-erp.github.io/Corrugado/",
+          "estado": "activa",
+          "descripcion": "ASC-F-50 · Monitoreo y Control de Corrugado",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "administracion",
+      "nombre": "Administración",
+      "icono": "🗂️",
+      "apps": []
+    },
+    {
+      "id": "rh",
+      "nombre": "Recursos Humanos",
+      "icono": "👥",
+      "apps": [
+        {
+          "id": "vacamanager",
+          "nombre": "Vacaciones",
+          "url": "https://gamabet26.github.io/VacaionesZX/",
+          "estado": "en_desarrollo",
+          "descripcion": "Gestión de vacaciones y permisos",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "avisos-rh",
+          "nombre": "Avisos",
+          "url": "https://zxerpdev.github.io/Avisos-RH/",
+          "estado": "activa",
+          "descripcion": "Captura de personal (cumpleaños/aniversarios) y eventos de la empresa, se reflejan en la pantalla de Inicio",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ],
+      "subareas": [
+        {
+          "id": "seguridad-salud",
+          "nombre": "Seguridad y Salud",
+          "apps": [
+            {
+              "id": "expediente-medico",
+              "nombre": "Expediente Médico",
+              "url": "https://zxerpdev.github.io/Expediente-Medico-/",
+              "estado": "activa",
+              "descripcion": "Medico ZX — expedientes médicos del personal",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zx-university",
+          "nombre": "ZX University",
+          "apps": [
+            {
+              "id": "zxu-examenes",
+              "nombre": "Exámenes",
+              "url": "https://mejora2zx.github.io/UZX/",
+              "estado": "activa",
+              "descripcion": "Exámenes de capacitación del personal",
+              "rolesPermitidos": [
+                "*"
+              ]
+            },
+            {
+              "id": "zxu-capacitacion",
+              "nombre": "Capacitación",
+              "url": null,
+              "estado": "en_desarrollo",
+              "descripcion": "Cursos y capacitación del personal",
+              "rolesPermitidos": [
+                "*"
+              ]
+            },
+            {
+              "id": "zxu-biblioteca",
+              "nombre": "Biblioteca",
+              "url": null,
+              "estado": "en_desarrollo",
+              "descripcion": "Biblioteca de materiales y consulta",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mc",
+      "nombre": "Mejora Continua",
+      "icono": "📈",
+      "apps": [
+        {
+          "id": "kaizenzx",
+          "nombre": "Short Kaizen",
+          "url": "https://gamabet26.github.io/KaizenZX/",
+          "estado": "activa",
+          "descripcion": "Gestión de proyectos Kaizen",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "eventos-kaizen",
+          "nombre": "Eventos Kaizen",
+          "url": null,
+          "estado": "en_desarrollo",
+          "descripcion": "",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "resultados-eq-kaizen",
+          "nombre": "Resultados Eq. Kaizen",
+          "url": null,
+          "estado": "en_desarrollo",
+          "descripcion": "",
+          "rolesPermitidos": [
+            "*"
+          ]
+        },
+        {
+          "id": "8s",
+          "nombre": "8's",
+          "url": "https://mejora2zx.github.io/8S/resultados/",
+          "estado": "activa",
+          "descripcion": "",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "direccion",
+      "nombre": "Dirección",
+      "icono": "🧭",
+      "apps": [
+        {
+          "id": "zx-ptes",
+          "nombre": "ZX-PTES",
+          "url": "https://gamabet26.github.io/ZX-PTES/",
+          "estado": "activa",
+          "descripcion": "Tablero de tareas estilo Jira (con asistente Bexuz)",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingenieria",
+      "nombre": "Ingeniería / Mantenimiento",
+      "icono": "🔧",
+      "apps": [
+        {
+          "id": "sap-item-automation",
+          "nombre": "Automatización de Altas SAP",
+          "url": null,
+          "estado": "en_desarrollo",
+          "descripcion": "Automatiza la creación de artículos en SAP B1 (DTW)",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planeacion",
+      "nombre": "Planeación",
+      "icono": "🗓️",
+      "apps": [
+        {
+          "id": "produccion-planning",
+          "nombre": "Programa de Producción",
+          "url": "https://zxerpdev.github.io/Programa-de-Produccion/",
+          "estado": "activa",
+          "descripcion": "Programador de producción (demo — backend de órdenes aún pendiente)",
+          "rolesPermitidos": [
+            "*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adminproductiva",
+      "nombre": "Administración Productiva",
+      "icono": "📋",
+      "subareas": [
+        {
+          "id": "almacen",
+          "nombre": "Almacén",
+          "icono": "📦",
+          "apps": [
+            {
+              "id": "valesref",
+              "nombre": "Vales de Refacciones",
+              "url": "https://gamabet26.github.io/ValesREF/",
+              "estado": "en_desarrollo",
+              "descripcion": "Vales digitales de salida de almacén",
+              "rolesPermitidos": [
+                "*"
+              ]
+            },
+            {
+              "id": "tablero-mp",
+              "nombre": "Tablero MP",
+              "url": "https://gamabet26.github.io/MP-Tablero/",
+              "estado": "activa",
+              "descripcion": "Recepción de materia prima (Compras, Vigilancia, Recibo MP)",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "erp",
+          "nombre": "ERP",
+          "icono": "🧾",
+          "apps": [
+            {
+              "id": "zuappix",
+              "nombre": "Zuappix",
+              "url": null,
+              "estado": "en_desarrollo",
+              "descripcion": "",
+              "rolesPermitidos": [
+                "*"
+              ]
+            },
+            {
+              "id": "opex",
+              "nombre": "Opex",
+              "url": null,
+              "estado": "en_desarrollo",
+              "descripcion": "",
+              "rolesPermitidos": [
+                "*"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logistica",
+          "nombre": "Logística",
+          "icono": "🚚",
+          "apps": []
+        }
+      ]
+    },
+    {
+      "id": "ventas",
+      "nombre": "Ventas",
+      "icono": "🛒",
+      "apps": []
+    }
+  ],
+  "anuncios": [
+    {
+      "titulo": "Bienvenidos a Espacio Zubex",
+      "fecha": "2026-09-07",
+      "texto": "El portal está en construcción. Iremos agregando aplicaciones por área conforme estén listas."
+    }
+  ]
+}
